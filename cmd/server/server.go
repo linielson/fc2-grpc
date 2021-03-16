@@ -10,8 +10,6 @@ import (
 	"google.golang.org/grpc/reflection"
 )
 
-// rever os videos e as pastas
-
 func main() {
 	lis, err := net.Listen("tcp", "localhost:50051")
 	if err != nil {
